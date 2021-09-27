@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+@import "../helpers/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+
+html {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 1px;
+  font-family: $fontFamily;
+}

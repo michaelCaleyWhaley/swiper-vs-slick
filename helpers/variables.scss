@@ -1,0 +1,30 @@
+$fontFamily: "Source Sans Pro", sans-serif;
+
+$mainFont: #011536;
+$buttonPad: #58859a;
+$hoverLink: $buttonPad;
+$footerBg: rgba(88, 133, 154, 0.5);
+$footerFont: #011536d0;
+
+$desktopWidth: 769px;
+
+$smallSize: 0.5rem;
+$stdSize: 1rem;
+$medSize: 1.2rem;
+$largeSize: 1.3rem;
+$xlSize: 1.5rem;
+$sxlSize: 2.5rem;
+
+@mixin desktop {
+  @media (min-width: #{$desktopWidth}) {
+    @content;
+  }
+}
+
+$sidebarTransition: cubic-bezier(0.77, 0.2, 0.05, 1);
+
+@mixin alignment {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}

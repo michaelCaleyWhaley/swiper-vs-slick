@@ -1,0 +1,9 @@
+.swiper-carousel {
+  width: 100%;
+  max-width: 588px;
+  margin: 0 auto 100px;
+
+  @media all and (min-width: 769px) {
+    max-width: 1176px;
+  }
+}
